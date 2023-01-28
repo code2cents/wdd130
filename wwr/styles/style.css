@@ -1,0 +1,43 @@
+
+#background {
+    height: 725px;
+}
+                
+body {
+    background-color: #87BBA2; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+                 
+
+.logo {
+    width: 80px;
+}
+.content {
+    max-width: 1600px;
+}                
+
+
+
+
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}   
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}     
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+footer p {
+    font-size: 1.2em;
+}    
