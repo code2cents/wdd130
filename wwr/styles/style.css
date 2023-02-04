@@ -4,26 +4,32 @@
 }
                 
 body {
-    background-color: #87BBA2; 
+    background-color: #C9E4CA; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:#87BBA2;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #55828B;
 }
                  
 
 .logo {
-    width: 80px;
+    width: 90px;
+    border-radius: 50%;
 }
-#icon{
-    width: 80px;
+.icon{
+    width: 70px;
 }
-.content {
+#content {
+    margin: 0 auto;
     max-width: 1600px;
 }                
 
+footer {
+    background-color: #87BBA2;
+    color: white;
+}
 
 
 
@@ -34,7 +40,7 @@ nav a {
     text-decoration: none;
 }   
 nav a:hover {
-    background-color: black;
+    background-color: #55828B;
     color: #d9c2a3;
 }     
 footer p a:hover {
@@ -42,5 +48,97 @@ footer p a:hover {
 }    
 
 footer p {
-    font-size: 1.2em;
+    font-size: 0.8em;
 }    
+
+footer p {
+    padding: 20px;
+}
+
+h1 {
+    margin: 50px 0;
+}
+nav {
+    background-color: #87BBA2;
+}
+a {
+    color: white;
+}
+nav {
+    padding: 25px;
+}
+a {
+    padding: 25px;
+}
+body {
+    margin: 0
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Londrina+Solid&display=swap');
+
+.home-title {
+    font-family: Jost, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+  }
+                                        
+
+  body {
+    background-color: #fcfbfb;
+    font-family: Jost, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+                    
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+            
+.home-grid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
+#hero-msg{
+    text-align: center
+    
+
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+     
+}
