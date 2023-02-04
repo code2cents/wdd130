@@ -82,8 +82,10 @@ body {
 }
 
 .msg {
-    background-color: #6f7364;
+    background-color:  #87BBA2   ;
+    
     line-height: 1.5em;
+    
   }
                                         
 
@@ -112,6 +114,10 @@ nav a {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
@@ -141,4 +147,11 @@ main section img {
     align-items: center;
     height: 120px;
      
+}
+
+.join-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
 }
