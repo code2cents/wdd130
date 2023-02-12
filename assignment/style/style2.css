@@ -1,3 +1,7 @@
-body {
-    background-color: #87BBA2; 
+.main-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
 }
+
