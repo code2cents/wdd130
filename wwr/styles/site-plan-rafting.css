@@ -162,3 +162,39 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+------------------------------------------------
+.card-img {
+  border: 10px solid #d9c2a3;
+  
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
+
+.mountains {
+  width: 100%;
+  grid-column: 2/7;
+  grid-row: 5/8;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.rivers-card{
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.camping-card{
+  grid-column: 5/7;
+  grid-row: 2/3;
+}
+.rapids-card{
+  grid-column: 8/10;
+  grid-row: 2/3;
+}
+#background {
+  height: 725px;
+  grid-column: 1/11;
+  grid-row: 4/9;
+}
