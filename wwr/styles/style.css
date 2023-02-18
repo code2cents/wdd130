@@ -46,7 +46,7 @@ nav a {
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
-    z-index: -1px;
+    
     
     
 }                     
@@ -60,7 +60,7 @@ nav a {
     font-family: Jost, Helvetica, sans-serif;
     font-size: 2em;
     text-align: center;
-    z-index: -1px;
+    
    
     
     
