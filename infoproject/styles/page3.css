@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Mono', Helvetica, sans-serif;
+    background-color: #2B2D42 ;
+    
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(20, 4, 36);
+    margin: 5px;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8D99AE;
+    box-shadow: 0 0 1rem black;
+    
+}
+
+nav{
+    display: flex;
+    margin: -1px;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    
+    
+   
+}   
+nav a:hover {
+
+    background-color: #2B2D42;
+    color: white;
+}
+
+
+
+
+footer {
+    background-color: #8D99AE   ;
+    color: white;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+footer p {
+    font-size: 0.8em;
+    padding: 10px;
+}    
+
+/* old hero stuff */
+.title h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-family:"Press Start 2P";
+    text-align: center;
+    
+
+}
+.title h3{
+    text-align: center;
+    font-family: 'Roboto Mono', Helvetica, sans-serif; 
+}
+.hero img{
+    background: center;
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+
+.hero h2{
+    text-align: center;
+
+}
+
+.hero .columns{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.hero .columns p{
+    padding: 10px;
+}
