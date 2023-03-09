@@ -8,6 +8,7 @@
 body{
     font-family: 'Roboto Mono', Helvetica, sans-serif;
     background-color: #2B2D42 ;
+    color: white;
     
 }
 
@@ -71,7 +72,7 @@ footer p {
 
 /* old hero stuff */
 .title h2{
-    color: aliceblue;
+    color: white;
     font-size: 30px;
     font-family:"Press Start 2P";
     text-align: center;
