@@ -100,6 +100,9 @@ footer p {
     justify-content: space-between;
     font-size: 15px;
 }
+.hero .columns p{
+    padding: 10px;
+}
  /* Chat containers */
 .container {
   border: 2px solid #dedede;
@@ -155,6 +158,4 @@ footer p {
   float: left;
   color: #999;
 } 
-.hero .columns p{
-    padding: 10px;
-}
+
