@@ -106,7 +106,9 @@ footer p {
   background-color: #000000;
   border-radius: 5px;
   padding: 10px;
-  margin: 10px 0;
+  margin: auto ;
+  width: 700px;
+  
 }
 
 /* Darker chat container */
@@ -135,11 +137,11 @@ footer p {
 /* Style the right image */
 .container img.right {
   
-    float: left;
-    max-width: 60px;
-    width: 100%;
-    margin-right: 20px;
-    border-radius: 50%;
+ float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 
 /* Style time text */
