@@ -158,4 +158,8 @@ footer p {
   float: left;
   color: #999;
 } 
-
+/* container info*/
+.info{
+    border-color: #ccc;
+    background-color: #084a96;
+}
