@@ -174,4 +174,9 @@ footer p {
 .info{
     border-color: #ccc;
     background-color: #084a96;
-}  
+}
+
+.main-info h2{
+    text-align: center;
+
+}
